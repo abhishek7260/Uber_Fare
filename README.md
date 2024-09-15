@@ -32,25 +32,16 @@ This repository contains a Streamlit app for predicting Uber fare amounts based 
     cd uber_fare_prediction
     ```
 
-2. **Create and activate a virtual environment (optional but recommended):**
 
-    ```bash
-    python -m venv venv
-    # On Windows
-    venv\Scripts\activate
-    # On Unix or macOS
-    source venv/bin/activate
-    ```
-
-3. **Install the required packages:**
+2. **Install the required packages:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Ensure the model file is in the correct directory:**
+3. **Ensure the model file is in the correct directory:**
 
-    Place the `xgb_model_with_features.pkl` file in the `C:\Users\Abhishek\Desktop\Uber_Fare` directory or update the `model_path` variable in `app.py` with the correct path to your model file.
+    Place the `xgb_model_with_features.pkl` file in the  directory or update the `model_path` variable in `app.py` with the correct path to your model file.
 
 ## Running the App
 
